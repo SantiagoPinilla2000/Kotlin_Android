@@ -4,25 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    android:padding="18dp"
+    android:orientation="vertical"
+    android:background="@drawable/sex_cat"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextLoginUser"
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"/>
-    <EditText
-        android:id="@+id/editTextLoginPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"/>
+        android:text="Gato Sexo"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:textSize="@dimen/text_size"
+        />
+
     <Button
-        android:id="@+id/editTextLoginBtn"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_cat"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:text="Amigos"/>
+
+    <!--
+        <EditText
+            android:id="@+id/editTextLoginUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/editTextLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/editTextLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+        -->
 
 </androidx.appcompat.widget.LinearLayoutCompat>
